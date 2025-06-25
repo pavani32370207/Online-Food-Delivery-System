@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background:  rgb(246, 97, 211);
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    font-size: xx-large;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: large;
+  }
+  
+  table th {
+    background-color:palevioletred;
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  form label {
+    display: block;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-display: none;
+    padding: 2px;
+  }
+
+    button{
+        font-size: xx-large;
+        font-weight: 100;
+        background-color: green;
+        cursor: pointer;
+    }
+    .num img{
+        float: right;
+        width: 60%;
+      
+    }
