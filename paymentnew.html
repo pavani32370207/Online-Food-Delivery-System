@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment Method</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\ssiri\Downloads\fswd final\payment.css">
+  </head>
+  <body>
+    <header>
+      <img src="C:\Users\ssiri\Pictures\food.png" alt="Food Delivery Service Logo">
+      <nav>
+        <ul>
+          <li><a href="file:///C:/Users/ssiri/Desktop/fswd%20final%20folder/Home%20page.html"><h1>Home</h1></a></li>
+          <li><a href="C:\Users\ssiri\Downloads\fswd final\menu.html"><h1>Menu</h1></a></li>
+          <li><a href="#"><h1>My Orders</h1></a></li>
+          <li><a href="#"><h1>Account</h1></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="num">
+    <img src="C:\Users\ssiri\Pictures\pp.jpg">
+    </div>
+    <section>
+      <h1><b><u>Order Summary</u></b></h1>
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Pizza</td>
+          <td>Rs.200</td>
+        </tr>
+        <tr>
+          <td>Salad</td>
+          <td>Rs.100</td>
+        </tr>
+        <tr>
+          <td>Drink</td>
+          <td>Rs.120</td>
+        </tr>
+        <tr>
+          <td>Total:</td>
+          <td>Rs.420</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h1><b><u>Payment Method</u></b></h1>
+      <form>
+        <label>
+          <input type="radio" name="paymentMethod" value="creditCard">
+          Credit Card
+        </label>
+        <label>
+          <input type="radio" name="paymentMethod" value="paypal">
+          PayPal
+        </label>
+        <!-- Add more payment options as needed -->
+      </form>
+    </section>
+    <section>
+      <h1><b><u>Payment Details</u></b></h1>
+      <form>
+        <label>
+          Credit Card Number:
+          <input type="text" name="creditCardNumber">
+        </label>
+        <label>
+          Expiration Date:
+          <input type="text" name="expirationDate">
+        </label>
+        <label>
+          Security Code:
+          <input type="text" name="securityCode">
+        </label>
+      </form>
+    </section>
+    <button type="submit">Complete Order</button>
+  </body>
+</html>
